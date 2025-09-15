@@ -41,8 +41,11 @@ public class SumProductAverage
             System.out.print("Enter the second number: ");
             double num2 = sc.nextDouble();
 
-            double sum = num1 + num2;
-            double product = num1 * num2;
+            System.out.print("Enter the third number: ");
+            double num3 = sc.nextDouble();
+
+            double sum = num1 + num2 + num3;
+            double product = num1 * num2 * num3;
             double average = sum / 3.0;
             System.out.println("Sum: " + sum);
             System.out.println("Product: " + product);
